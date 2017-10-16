@@ -1,0 +1,12 @@
+{
+    "projectId": "582ec571bfc09908e38b79dd",
+    "webRoot": "./",
+    "urlReplace": "^\/backend",
+    "pageRoot": "./WEB-INF/views/page/",
+    "pageRootName": "/page",
+    "jsRoot": "./src/javascript/page/",
+    "BaseComponent": "pro/widget.nek/BaseComponent",
+    "ListComponent": "pro/widget.nek/ListComponent",
+    "BaseModal": "pro/widget.nek/BaseModal",
+    "urlMaps": "./moky.urlMaps.js"
+}

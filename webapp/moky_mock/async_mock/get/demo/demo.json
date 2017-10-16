@@ -1,0 +1,14 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": {
+        "list": [{
+            "id": 0,
+            "name": "asd"
+        }, {
+            "id": 1,
+            "name": "qwe"
+        }],
+        "total": 2
+    }
+}

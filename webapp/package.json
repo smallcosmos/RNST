@@ -1,0 +1,34 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "demo",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src/javascript/page/**",
+    "lint:fix": "eslint --fix src/javascript/page/**",
+    "rm:nek-ui": "shx rm -rf ./node_modules/nek-ui",
+    "rm:dist": "shx rm -rf src/javascript/lib/nek-ui/dist",
+    "cp:dist": "shx cp -r ./node_modules/nek-ui/dist src/javascript/lib/nek-ui/",
+    "update": "npm run rm:nek-ui && npm install && npm run rm:dist && npm run cp:dist",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "gitDir": "../../../", //需要根据具体系统调整至git根目录
+    "linters": {
+      "src/javascript/page/**/*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    }
+  },
+  "author": "Cody",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-kaola": "*",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.1",
+    "nek-ui": "latest",
+    "shx": "^0.2.2"
+  }
+}

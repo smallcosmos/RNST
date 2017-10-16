@@ -1,0 +1,12 @@
+{
+  "menuList": [{
+    "name": "demo",
+    "childsList": [{
+      "name": "demo1",
+      "url": "/index"
+    }, {
+      "name": "demo2",
+      "url": "/index"
+    }]
+  }]
+}

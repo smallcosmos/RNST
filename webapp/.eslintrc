@@ -1,0 +1,16 @@
+{
+  "extends": "kaola",
+  "rules": {
+    "indent": ["error", 2],
+    "no-unused-vars": 0,
+    "no-negated-condition": 0,
+    "max-len": 0,
+    "comma-dangle": ["error", "only-multiline"]
+  },
+  "globals": {
+    "define": true,
+    "Regular": true,
+    "NEKUI": true,
+    "echarts": true
+  }
+}
