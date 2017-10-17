@@ -16,10 +16,15 @@ Regular+Nekui Scaffold Template
 **options：**
 
   --help      显示帮助信息               [布尔]
+  
   --version   显示版本号                 [布尔]
+  
   -i, --init  选择要创建的工程类型并创建   [字符串]
+  
   -a, --add   添加映射                [字符串]
+  
   -d, --del   删除映射                [字符串]
+  
   -l, --list  映射列表                  [布尔]
 
 1. `nek scaffold -a [keyword] [url]`添加一条映射,映射关系通过nek-server api保存在数据库中，比如:
