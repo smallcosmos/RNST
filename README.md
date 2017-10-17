@@ -14,10 +14,10 @@ Regular+Nekui Scaffold Template
 ### nek scaffold
 
 **options：**
-  --help      显示帮助信息              [布尔]
-  --version   显示版本号                [布尔]
-  -i, --init  选择要创建的工程类型并创建
-                                      [字符串]
+
+  --help      显示帮助信息               [布尔]
+  --version   显示版本号                 [布尔]
+  -i, --init  选择要创建的工程类型并创建   [字符串]
   -a, --add   添加映射                [字符串]
   -d, --del   删除映射                [字符串]
   -l, --list  映射列表                  [布尔]
