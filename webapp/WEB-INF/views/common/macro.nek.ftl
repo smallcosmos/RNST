@@ -29,7 +29,6 @@
 <!--@noparse-->
     <script src="${CDN}/vendor/regular.min.js"></script>
     <script src="${CDN}/js/nek-ui.min.js"></script>
-    <script src="${jsRoot}/widget.nek/compatible.js"></script>
 <!--/@noparse-->
 </#macro>
 
