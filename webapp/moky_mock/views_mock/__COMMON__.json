@@ -1,5 +1,5 @@
 {
-  "menuList": [{
+  "menus": [{
     "name": "demo",
     "childsList": [{
       "name": "demo1",
@@ -8,5 +8,10 @@
       "name": "demo2",
       "url": "/index"
     }]
-  }]
+  }],
+  "currentUser": {
+    "username": "haitaoadmin",
+    "nickname": "110"
+  },
+  "currentUrl": "/"
 }
