@@ -1,4 +1,7 @@
-# RNST
+# RNST  
+
+[![npm version](https://img.shields.io/badge/npm-4.2.0-green.svg)]()  
+
 Regular+Nekui Scaffold Template
 
 ### 使用
